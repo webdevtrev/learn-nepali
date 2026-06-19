@@ -1,0 +1,25 @@
+:root {
+  --font-cinzel: "Cinzel";
+  --font-fraunces: "Fraunces";
+  --font-inter: "Inter";
+  --font-ibm-plex-mono: "IBMPlexMono";
+  --font-noto-sans-devanagari: "NotoSansDevanagari";
+
+  --font-display: var(--font-inter);
+  --font-serif: var(--font-fraunces);
+  --font-rounded: var(--font-inter);
+  --font-mono: var(--font-ibm-plex-mono);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
